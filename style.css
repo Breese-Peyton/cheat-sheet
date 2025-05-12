@@ -1,0 +1,90 @@
+* {
+  font-family: "VT323", monospace;
+} 
+  /* Style Rules for main Header */
+h1 {
+  text-align: center;
+  color: skyblue;
+  font-size: 60px;
+  background-color: lavender;
+  width: 100%;
+  top: 0;
+  margin: 0 auto;
+  border: 4px solid black;
+}
+  /* End Styling for main header */
+
+  /* Style rules for the introduction */
+.intro {
+  color: darkblue;
+}
+  /* End styling for introduction */
+
+  /* Style Rules for Section Titles */
+#table h2, h3, tfoot {
+  text-align: center;
+}
+
+  /*General Style rules for all of our tables containing the id "table" */
+#table table {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-color: lavender;
+}
+
+  /* Style rules for table1 */
+.table1 .tag {
+  background-color: beige;
+  border: 1px solid black;
+  text-align: center;
+  font-family: monospace !important;
+}
+
+.table1 .name {
+  background-color: palevioletred;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table1 .desc {
+  background-color: sandybrown;
+  border: 1px solid black;
+  text-align: center;
+}
+  /* End Style rules for table1 */
+
+  /* Style rules for table2 */
+.table2 .attribute {
+  background-color: beige;
+  border: 1px solid black;
+  text-align: center;
+  font-family: monospace !important;
+}
+
+.table2 .name {
+  background-color: palevioletred;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table2 .desc {
+  background-color: sandybrown;
+  border: 1px solid black;
+  text-align: center;
+}
+  /* End Style rules for table2 */
+
+/* End HTML Tables Styling */
+
+/* Styling for Other HTML Tags */
+
+#other h1, h2 {
+  text-align: center;
+}
+
+ #other .tag {
+  font-family: monospace;
+  background-color: beige;
+}
