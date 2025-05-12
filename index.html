@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!-- Page Setup and important resources -->
+  <head>
+    <title>Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- All displayable content for site found here -->
+  <body>
+    <h1>Cheat Sheet</h1>
+    <!-- Intro Section outline what is to come -->
+    <section class="intro">
+      <p>
+        This page will be used to display a cheat sheet about some of the
+        concepts we have learned throughout the codecademy course so far.
+      </p>
+
+      <p>In this cheat sheet you should expect to see many topics including:</p>
+      <!-- Navigation Menu -->
+      <nav id="menu">
+        <ol>
+          <li>
+            <a href="#table">HTML Tables</a>
+          </li>
+
+          <li>
+            <a href="#other">Other HTML tags</a>
+          </li>
+          <!-- This section will be added at a later date when I'm ready to expand upon this guide.  
+         
+          <li><a href="#selectors">CSS selectors and specificity</a></li>
+          <li><a href="#common">Common CSS properties</a></li> -->
+        </ol>
+      </nav>
+      <!-- End Nav Menu -->
+    </section>
+    <!-- End Intro -->
+
+    <section id="table">
+      <h2>HTML Tables</h2>
+      <h3>Table Tags</h3>
+      <!-- Table Tags Table -->
+      <table class="table1">
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="tag">&lttable&gt</td>
+            <td class="name">Table</td>
+            <td class="desc">The wrapper element for all HTML tables.</td>
+          </tr>
+
+          <tr>
+            <td class="tag">&ltthead&gt</td>
+            <td class="name">Table Head</td>
+            <td class="desc">
+              The set of rows defining the column headers in a table.
+            </td>
+          </tr>
+
+          <tr>
+            <td class="tag">&lttbody&gt</td>
+            <td class="name">Table Body</td>
+            <td class="desc">The set of rows containing actual table data..</td>
+          </tr>
+
+          <tr>
+            <td class="tag">&lttr&gt</td>
+            <td class="name">Table Row</td>
+            <td class="desc">The table row container.</td>
+          </tr>
+
+          <tr>
+            <td class="tag">&lttd&gt</td>
+            <td class="name">Table Data</td>
+            <td class="desc">The table data container.</td>
+          </tr>
+
+          <tr>
+            <td class="tag">&lttfoot&gt</td>
+            <td class="name">Table Foot</td>
+            <td class="desc">
+              The set of rows defining the footer in a table.
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              Click
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics"
+                target="_blank"
+                >here</a
+              >
+              to learn more about tables!
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h3>Table Attributes</h3>
+
+      <!-- Table Attributes Table -->
+      <table class="table2">
+        <thead>
+          <th scope="col">Attribute</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="attribute">colspan</td>
+            <td class="name">Column Span</td>
+            <td class="desc">
+              Defines how many columns a td element should span.
+            </td>
+          </tr>
+          <tr>
+            <td class="attribute">rowspan</td>
+            <td class="name">Row Span</td>
+            <td class="desc">
+              Defines how many rows a td element should span.
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="3">
+            Click <a href="#menu">here</a> to return to the navigation menu!
+          </td>
+        </tfoot>
+      </table>
+    </section>
+    <!-- End Table Section -->
+
+    <!-- Other HTML Tags Section -->
+    <section id="other">
+      <h2>Other HTML Tags</h2>
+      <p>
+        In this section, we'll tackle some other important HTML tags that the
+        table tag section didn't cover. Expect to learn about the following:
+      </p>
+      <ol id="example">
+        <li>
+          <a href="#anchor">
+            <span class="tag">&lta&gt</span>
+          </a>
+        </li>
+        <li>
+          <a href="#paragraph">
+            <span class="tag">&ltp&gt</span>
+          </a>
+        </li>
+        <li>
+          <a href="#lists">
+            <span class="tag">&ltol&gt &amp; &ltul&gt</span>
+          </a>
+        </li>
+
+        <!-- We have plans to add to the tags in this list at a future date. I stopped working on it so I could progress with the course and learn more to make the project better. 
+        
+        <li><span class="tag">&lthead&gt</span></li>
+        <li><span class="tag">&ltlink&gt</span></li> -->
+      </ol>
+
+      <p id="anchor">
+        The anchor tag <span class="tag">"&lta&gt"</span> is used to create an
+        anchor element. Anchors, when paired with an href attribute (<span
+          class="tag"
+          >href="some destination"</span
+        >) are used to create hyperlinks to websites, files, locations within
+        the same page, or anywhere else a url can take you. Here's an example
+        anchor that takes you to
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a"
+          >learn more</a
+        >
+        about anchors.
+      </p>
+
+      <p id="paragraph">
+        The paragraph tag <span class="tag">"&ltp&gt"</span> is used to create a
+        paragraph element. Paragraphs are used to create blocks of text or any
+        structural grouping of related materials... Just like this one! For more
+        about paragraphs,
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/p"
+          >click here</a
+        >.
+      </p>
+
+      <p id="lists">
+        Lets talk about lists! You may have notice we grouped two tags together
+        here, that's because theres to main types of lists, ordered lists "<span
+          class="tag"
+          >&ltol&gt</span
+        >" and unordered lists "<span class="tag">&ltul&gt</span>". You've
+        actually already seen a couple of examples of ordered lists on this page
+        already <a href="#menu">here</a> and <a href="#example">here</a>. Let's
+        give and example of an unordered list.
+      </p>
+
+      <ul>
+        <li>This is an unordered list</li>
+        <li>Notice these list items are not numbered</li>
+        <li>If you want your list numbered, you must use an ordered list</li>
+        <li>
+          By the way, you'll want to learn about
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/li"
+            >list elements</a
+          >
+          <span class="tag">"&ltli&gt"</span> before you start using lists.
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
